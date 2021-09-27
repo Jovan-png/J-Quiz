@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+}
+body {
+  background-color: #fff;
+}
+.timerDiv {
+  color: #2e86c1;
+  border: black;
+}
+.buddy {
+  background-color: #2e86c1;
+  height: 100px;
+}
+.main {
+  margin-top: 300px;
+  color: #fff;
+  padding: 0;
+  text-align: center;
+  width: 100%;
+  background-color: #fff;
+  border: 0;
+}
+.start {
+  background-color: azure;
+  border: 1px solid #2e86c1;
+  padding: 10px 10px 10px 10px;
+  font-size: 50px;
+  color: #2e86c1;
+  transition: 1m s;
+  box-shadow: 1px 1px 8px;
+  border-radius: 8px;
+}
+.start:hover {
+  background-color: azure;
+  border: 1px solid #2e86c1;
+  padding: 10px 10px 10px 10px;
+  font-size: 55px;
+  color: #2e86c1;
+  transition: 0.5s;
+  box-shadow: 1px 1px 8px;
+  border-radius: 8px;
+}
+
+.question-container {
+  margin-left: 400px;
+  margin-top: 100px;
+  margin-right: 300px;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  border-radius: 8px;
+  width: 100%;
+}
+h1 {
+  color: #2e86c1;
+  border: 1px;
+}
+.a-btn {
+  display: flex;
+  flex: 1;
+  background-color: azure;
+  border: 1px solid #2e86c1;
+  padding: 10px 100px 10px 10px;
+  font-size: 30px;
+  color: #2e86c1;
+  transition: 1s;
+  box-shadow: 1px 1px px;
+  border-radius: 8px;
+  float: left;
+  margin: 5px 5px 5px 5px;
+}
+.a-btn:hover {
+  display: flex;
+  flex: 1;
+  background-color: #2e86c1;
+  border: 1px solid #fff;
+  padding: 10px 100px 10px 10px;
+  font-size: 30px;
+  color: #fff;
+  transition: 1s;
+  box-shadow: 1px 1px 8px;
+  border-radius: 8px;
+  float: left;
+}
+.answer-container {
+  background-color: #2e86c1;
+}

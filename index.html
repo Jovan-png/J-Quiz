@@ -16,10 +16,15 @@
 <h4 class="timerDiv">Time:</h4><span class="timer" id="count">120</span>
 </div>
 </header>
-<main class="start-btn">
-    <button class="start" id="start">Start</button>
-</main>
-
+<div id="questions"></div>
+        <div id="optionbutton" class="hide">  
+        <button id="options0" onclick="nextquestion('options0')"></button>
+        <button id="options1" onclick="nextquestion('options1')"></button>
+        <button id="options2" onclick="nextquestion('options2')"></button> 
+</div>      
+<div class="main">
+<button class="start" id="start">Start</button>
+</div>
 <script src="./assets/js/script.js"></script>
 </body>
 </html>
