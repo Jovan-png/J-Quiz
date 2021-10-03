@@ -85,3 +85,10 @@ h1 {
   display: none;
   transition: 1s;
 }
+.fade-in {
+  color: gray;
+  padding-bottom: 0px;
+  text-align: center;
+  margin-bottom: 0px;
+  transition: 1s;
+}
