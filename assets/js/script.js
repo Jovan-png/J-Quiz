@@ -15,25 +15,25 @@ var questionList = [
     answer: "<h1>",
   },
   {
-    quest: "What is your favorite food",
-    options: ["Pizza","Tacos","Burgers","Chicken"],
-    answer: "Pizza",
+    quest: "If you wanted to create a paragraph which tag would you use?",
+    options: ["<hr>","<paragraph>","<p>","<div>"],
+    answer: "<p>",
   },
   {
-    quest: "What is your  food",
-    options: ["Pizza","Taco","Burers","Chicen"],
-    answer: "Pizza",
+    quest: "If you wanted to create a Div which tag would you use?",
+    options: ["<hr>","<paragraph>","<p>","<div>"],
+    answer: "<div>",
   },
   {
-    quest: "What is your favorite food!",
-    options: ["Pizza","Tacos","Burgers","Chicken"],
-    answer: "Pizza",
+    quest: "In CSS which of these changes the Background Color? ",
+    options: ["background-color","color","bg-color","change-background"],
+    answer: "background-color",
   },
   {
-    quest: "What is your favorite food?",
-    options: ["Pizza","Tacos","Burgers","Chicken"],
-    answer: "Chicken",
-  },
+    quest: "In CSS which of these centers text? ",
+    options: ["center-text:","center:","items-align: center;","text-align: center;"],
+    answer: "text-align: center;",
+  }
 ];
 
 

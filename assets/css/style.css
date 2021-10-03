@@ -92,3 +92,6 @@ h1 {
   margin-bottom: 0px;
   transition: 1s;
 }
+.playerScore {
+  cursor: pointer;
+}
