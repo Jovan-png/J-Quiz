@@ -37,7 +37,7 @@ var questionList = [
 ];
 
 
-$("#highScore .playerNS").val(localStorage.getItem("playerName"))
+
 
 // Starts Quiz with timer
 function startQuiz() {
@@ -74,8 +74,8 @@ function saveBtn(){
   pName = document.getElementById("playerName")
   var pNameVal = pName.value;
  score = score
- localStorage.setItem(pNameVal, score)
-
+ localStorage.setItem(pNameVal + score)
+location.reload
   
   }
 
